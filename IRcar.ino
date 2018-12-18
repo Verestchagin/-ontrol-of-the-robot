@@ -48,5 +48,6 @@ void loop()
     }
     irrecv.resume();
   }
-  if((millis() - _time) > 150) {_stop();}
+  if((millis() - _time) > 150) {_stop();
+ }
 }
